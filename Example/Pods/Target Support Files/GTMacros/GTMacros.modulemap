@@ -1,0 +1,6 @@
+framework module GTMacros {
+  umbrella header "GTMacros-umbrella.h"
+
+  export *
+  module * { export * }
+}

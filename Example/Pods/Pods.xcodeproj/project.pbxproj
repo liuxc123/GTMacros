@@ -1,0 +1,1016 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		11E56A9D859C59B071DE2BDCD4386F23 /* UIColor+GTHEX.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F108F043873A44EE1B85923EB288D10 /* UIColor+GTHEX.m */; };
+		16F34C39A582D88A364F0EA3CD89F136 /* GTCategories-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C87623C3E380AE05BF02606F568F070 /* GTCategories-dummy.m */; };
+		2586F17B678A595743BFC9D0DD3B8742 /* GTCGCommonMacro.h in Headers */ = {isa = PBXBuildFile; fileRef = 52A401A4971633B80B0CF525A2B32113 /* GTCGCommonMacro.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		284C54F5A0AFCCECFD7C4201490A4AD7 /* GTMacros-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 486F513AC72EFBE2DBF99AEC4AC15A90 /* GTMacros-dummy.m */; };
+		2EEE6AECF3289B55B71C121B8A3086ED /* UIColor+GTGradient.m in Sources */ = {isa = PBXBuildFile; fileRef = 2FD529CCB75F5A5AF83D5C1F7273C4D2 /* UIColor+GTGradient.m */; };
+		2F108517C4E00C4A09E6B2E19DC40576 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4DCB9BF350C3FC1BD88C1E0CBF21C80E /* Foundation.framework */; };
+		36AE8F85D0B318C5414380173C6A7567 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EF86E51CD484B39C0F026CC2D0287288 /* UIKit.framework */; };
+		3B79829E089FF06DAF25A3D1156821F8 /* UIColor+GTModify.m in Sources */ = {isa = PBXBuildFile; fileRef = 5AE089C865A73B7B2E52CFFE699A4D11 /* UIColor+GTModify.m */; };
+		4357CC9DF53970DEAF3100DFA74559D2 /* GTFunctionCommonMacro.h in Headers */ = {isa = PBXBuildFile; fileRef = 56B12C943163FCBCFFB79F0A5FDFF95A /* GTFunctionCommonMacro.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		5232330C44453186A50A3A48062CD32D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4DCB9BF350C3FC1BD88C1E0CBF21C80E /* Foundation.framework */; };
+		52A38D114DFFCAE7F88269C605EE401E /* Pods-GTMacros_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 25E53E036557CDB1FC07FB84C8D0B444 /* Pods-GTMacros_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		57119B7BBC5B0652ADFB0358FC780538 /* GTCommonMacro.h in Headers */ = {isa = PBXBuildFile; fileRef = 48623161D90E7E9A48D865115059DA76 /* GTCommonMacro.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		59B5B1D1FDDCFBD2883F7F6FA1BCC023 /* UIColor+GTModify.h in Headers */ = {isa = PBXBuildFile; fileRef = 2F42A81B850CC9B2EE289449C7654DF5 /* UIColor+GTModify.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5C3BD9F39DDC2A328E30CF8258F5DDC9 /* GTMacros.h in Headers */ = {isa = PBXBuildFile; fileRef = FBC44E1C468331837894FDF373970822 /* GTMacros.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		64E906321258B2EF05A66A524F0C2006 /* GTMacros-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 41DAADB500D74FA5E25F5DEE57563845 /* GTMacros-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		64F6EF6F6EFE41957CC284E942DC72AA /* UIColor+GTWeb.h in Headers */ = {isa = PBXBuildFile; fileRef = 86E16B8BEF974FCAE98EB726D9045DB2 /* UIColor+GTWeb.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6517AFAF0AA442F2598E60D144852445 /* GTCGCommonMacro.m in Sources */ = {isa = PBXBuildFile; fileRef = A1DD6147B7EFDA34C5ED437D659F9CDA /* GTCGCommonMacro.m */; };
+		8E6B4C3CFE4E0A2CE42BD8C3FA3120BF /* UIColor+GTRandom.m in Sources */ = {isa = PBXBuildFile; fileRef = A72FCBB4E61352318DFC0EB4E39EE801 /* UIColor+GTRandom.m */; };
+		8F6FFA04960F3105AE68B857BECCF87A /* GTFunctionCommonMacro.m in Sources */ = {isa = PBXBuildFile; fileRef = 26C56F6CDDB57B8B39E4B39879446281 /* GTFunctionCommonMacro.m */; };
+		97E0967A993B2043FA2093F1A2BFB5D0 /* GTCategories.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 84ED00A8AEBEA4BFFDBF6938C3CE4D1C /* GTCategories.framework */; };
+		982C280783072259A8F05E630D9DCD80 /* UIColor+GTWeb.m in Sources */ = {isa = PBXBuildFile; fileRef = 692C530C9C002FB666C91842300A20AE /* UIColor+GTWeb.m */; };
+		9C49AAD9CAAA7CCFF4D329FA3FB51E85 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4DCB9BF350C3FC1BD88C1E0CBF21C80E /* Foundation.framework */; };
+		A1D2419F735849BCC3872498782DB770 /* Pods-GTMacros_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 48A7E2FC43FFF2CB297E9A3C90F4558B /* Pods-GTMacros_Tests-dummy.m */; };
+		A7D2060095EF2FD64B0DBFDD08E1BCE5 /* GTSystemCommonMacro.h in Headers */ = {isa = PBXBuildFile; fileRef = C15CEB8FF5CB38C4A7E97A796FA1089F /* GTSystemCommonMacro.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		A97C7F8E2CC4BC610AB839F3971E7732 /* GTCategories-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 2637D6BE7A5E06FEC12CE2F2A01E1B5D /* GTCategories-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CBDAE964A209801EB368F3E692955C96 /* GTSystemCommonMacro.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A44457B0C1995207932EAAF06D17C45 /* GTSystemCommonMacro.m */; };
+		CC58C4DDA6E506657AC1BF9D0838D2E8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4DCB9BF350C3FC1BD88C1E0CBF21C80E /* Foundation.framework */; };
+		D7BD4C471B3DB4B2D9223CE7566208F4 /* UIColor+GTGradient.h in Headers */ = {isa = PBXBuildFile; fileRef = 2C14A67EF764CF166BA4B85F5C8F8783 /* UIColor+GTGradient.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DF93B311C38897AB4D1241A2CBF2F12F /* Pods-GTMacros_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 21A8EAF21C29C19F251D669B2C527FD8 /* Pods-GTMacros_Example-dummy.m */; };
+		E2D968EDA36B2585D56DF55ED5174E94 /* Pods-GTMacros_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F0A9CCFC843608AC2F92FB7158FBDC73 /* Pods-GTMacros_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E8F52C42985271D3189F5A009DA80DB3 /* UIColor+GTRandom.h in Headers */ = {isa = PBXBuildFile; fileRef = 38B22B8159C0C8AF8BD5C5078E7C36DE /* UIColor+GTRandom.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FCF062D30BB3AE7A244B29A7B6449E20 /* UIColor+GTHEX.h in Headers */ = {isa = PBXBuildFile; fileRef = AD628779B02239FD5C9A97A4F7126876 /* UIColor+GTHEX.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		02EC8A4D2AA3DFCCBC8C061A8F117B33 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 98E42D7C99BDA1823233CCCF2420DB61;
+			remoteInfo = GTCategories;
+		};
+		283360E4B8DFE12190730E5AEBC3E490 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 252E0F735DF39A793A0018A0BDFDC864;
+			remoteInfo = "Pods-GTMacros_Example";
+		};
+		95F9A02FA671BAC2A2920658ACC3ACA2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 98E42D7C99BDA1823233CCCF2420DB61;
+			remoteInfo = GTCategories;
+		};
+		D2D0C67CF3F891111BF39A45000567B0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F8AEA466471B9AF1BBB300409699D3AD;
+			remoteInfo = GTMacros;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		028A93CA78447BD9EB4E8B7C01A51311 /* Pods-GTMacros_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-GTMacros_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		03F9CA6F85266EE7555231431E6728A4 /* GTMacros.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = GTMacros.framework; path = GTMacros.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		0A83FCDBF4CA3D145E0888A23CD9E553 /* Pods_GTMacros_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_GTMacros_Example.framework; path = "Pods-GTMacros_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0FB80E0977F420755F921F3E4333C083 /* Pods-GTMacros_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-GTMacros_Example.release.xcconfig"; sourceTree = "<group>"; };
+		21A8EAF21C29C19F251D669B2C527FD8 /* Pods-GTMacros_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-GTMacros_Example-dummy.m"; sourceTree = "<group>"; };
+		25E53E036557CDB1FC07FB84C8D0B444 /* Pods-GTMacros_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-GTMacros_Example-umbrella.h"; sourceTree = "<group>"; };
+		2637D6BE7A5E06FEC12CE2F2A01E1B5D /* GTCategories-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "GTCategories-umbrella.h"; sourceTree = "<group>"; };
+		26C56F6CDDB57B8B39E4B39879446281 /* GTFunctionCommonMacro.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GTFunctionCommonMacro.m; path = GTMacros/GTFunctionCommonMacro.m; sourceTree = "<group>"; };
+		2C14A67EF764CF166BA4B85F5C8F8783 /* UIColor+GTGradient.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIColor+GTGradient.h"; path = "GTCategories/UIKit/UIColor/UIColor+GTGradient.h"; sourceTree = "<group>"; };
+		2F42A81B850CC9B2EE289449C7654DF5 /* UIColor+GTModify.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIColor+GTModify.h"; path = "GTCategories/UIKit/UIColor/UIColor+GTModify.h"; sourceTree = "<group>"; };
+		2FD529CCB75F5A5AF83D5C1F7273C4D2 /* UIColor+GTGradient.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIColor+GTGradient.m"; path = "GTCategories/UIKit/UIColor/UIColor+GTGradient.m"; sourceTree = "<group>"; };
+		31CA9758AFB26CE41EC4C14C7C6E4208 /* GTMacros.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; path = GTMacros.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		38B22B8159C0C8AF8BD5C5078E7C36DE /* UIColor+GTRandom.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIColor+GTRandom.h"; path = "GTCategories/UIKit/UIColor/UIColor+GTRandom.h"; sourceTree = "<group>"; };
+		40E0123A962FA7F746643F5B2F539C13 /* Pods-GTMacros_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-GTMacros_Example-frameworks.sh"; sourceTree = "<group>"; };
+		41DAADB500D74FA5E25F5DEE57563845 /* GTMacros-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "GTMacros-umbrella.h"; sourceTree = "<group>"; };
+		48623161D90E7E9A48D865115059DA76 /* GTCommonMacro.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GTCommonMacro.h; path = GTMacros/GTCommonMacro.h; sourceTree = "<group>"; };
+		486F513AC72EFBE2DBF99AEC4AC15A90 /* GTMacros-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "GTMacros-dummy.m"; sourceTree = "<group>"; };
+		48A7E2FC43FFF2CB297E9A3C90F4558B /* Pods-GTMacros_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-GTMacros_Tests-dummy.m"; sourceTree = "<group>"; };
+		48AF182BCE52AA3A7EAAB18FF666F887 /* GTCategories.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = GTCategories.framework; path = GTCategories.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4DCB9BF350C3FC1BD88C1E0CBF21C80E /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		52028CFAE7AF3BDB672993DE1FFAC05C /* Pods_GTMacros_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_GTMacros_Tests.framework; path = "Pods-GTMacros_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		52A401A4971633B80B0CF525A2B32113 /* GTCGCommonMacro.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GTCGCommonMacro.h; path = GTMacros/GTCGCommonMacro.h; sourceTree = "<group>"; };
+		56B12C943163FCBCFFB79F0A5FDFF95A /* GTFunctionCommonMacro.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GTFunctionCommonMacro.h; path = GTMacros/GTFunctionCommonMacro.h; sourceTree = "<group>"; };
+		59FD39F0A9483AF9723B0D8454001E49 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5AE089C865A73B7B2E52CFFE699A4D11 /* UIColor+GTModify.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIColor+GTModify.m"; path = "GTCategories/UIKit/UIColor/UIColor+GTModify.m"; sourceTree = "<group>"; };
+		656CC916D4F116F60E3F21785D72C070 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		692C530C9C002FB666C91842300A20AE /* UIColor+GTWeb.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIColor+GTWeb.m"; path = "GTCategories/UIKit/UIColor/UIColor+GTWeb.m"; sourceTree = "<group>"; };
+		6C87623C3E380AE05BF02606F568F070 /* GTCategories-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "GTCategories-dummy.m"; sourceTree = "<group>"; };
+		754994C083C433C29503AE92E53D1E8F /* GTMacros.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = GTMacros.xcconfig; sourceTree = "<group>"; };
+		7B316BEC19185B087B0A3D92A590F7F3 /* GTCategories.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = GTCategories.xcconfig; sourceTree = "<group>"; };
+		7CB77FDBD71D612814B941B5AE0F5BBD /* Pods-GTMacros_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-GTMacros_Tests-resources.sh"; sourceTree = "<group>"; };
+		84ED00A8AEBEA4BFFDBF6938C3CE4D1C /* GTCategories.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = GTCategories.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		86E16B8BEF974FCAE98EB726D9045DB2 /* UIColor+GTWeb.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIColor+GTWeb.h"; path = "GTCategories/UIKit/UIColor/UIColor+GTWeb.h"; sourceTree = "<group>"; };
+		8996B78769BD21722D2F92199E877A37 /* Pods-GTMacros_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-GTMacros_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		8A44457B0C1995207932EAAF06D17C45 /* GTSystemCommonMacro.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GTSystemCommonMacro.m; path = GTMacros/GTSystemCommonMacro.m; sourceTree = "<group>"; };
+		8F108F043873A44EE1B85923EB288D10 /* UIColor+GTHEX.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIColor+GTHEX.m"; path = "GTCategories/UIKit/UIColor/UIColor+GTHEX.m"; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		94AB11D820715222502E56DA547EFF22 /* GTMacros-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "GTMacros-prefix.pch"; sourceTree = "<group>"; };
+		98D64F69A796AF737819404F08801D3B /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9CAB0A28494CE4412CBA7DFEF329C0AE /* GTCategories.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = GTCategories.modulemap; sourceTree = "<group>"; };
+		9DD74111210220DD0D57945D677D4E42 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A1DD6147B7EFDA34C5ED437D659F9CDA /* GTCGCommonMacro.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GTCGCommonMacro.m; path = GTMacros/GTCGCommonMacro.m; sourceTree = "<group>"; };
+		A5E6C546E756161E0FDB19BDF15989D0 /* GTCategories-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "GTCategories-prefix.pch"; sourceTree = "<group>"; };
+		A72FCBB4E61352318DFC0EB4E39EE801 /* UIColor+GTRandom.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIColor+GTRandom.m"; path = "GTCategories/UIKit/UIColor/UIColor+GTRandom.m"; sourceTree = "<group>"; };
+		AD628779B02239FD5C9A97A4F7126876 /* UIColor+GTHEX.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIColor+GTHEX.h"; path = "GTCategories/UIKit/UIColor/UIColor+GTHEX.h"; sourceTree = "<group>"; };
+		C1039AAE87257D87DA39230EFA0C55BF /* Pods-GTMacros_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-GTMacros_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		C15CEB8FF5CB38C4A7E97A796FA1089F /* GTSystemCommonMacro.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GTSystemCommonMacro.h; path = GTMacros/GTSystemCommonMacro.h; sourceTree = "<group>"; };
+		C1C3D1BABA8A36B002B89D8168DBA3BC /* Pods-GTMacros_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-GTMacros_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		CA4BE2C7D7236FBA5B1D29B89C97F073 /* Pods-GTMacros_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-GTMacros_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		CA63F69738FD05E655D5D8A0B309DCE4 /* Pods-GTMacros_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-GTMacros_Tests.modulemap"; sourceTree = "<group>"; };
+		D839878283492B136E26DDDA8E8F0DB3 /* Pods-GTMacros_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-GTMacros_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		D877B7E7F7086165ABBDEED7EE8B238B /* Pods-GTMacros_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-GTMacros_Example-resources.sh"; sourceTree = "<group>"; };
+		DE20A8F70110A0FB81360C2D00D6F02C /* Pods-GTMacros_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-GTMacros_Example.modulemap"; sourceTree = "<group>"; };
+		E052DCD9BED3977D6BFEF76643F5A4C8 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E241FCD588B29866792D86744DDF7715 /* GTMacros.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = GTMacros.modulemap; sourceTree = "<group>"; };
+		EF86E51CD484B39C0F026CC2D0287288 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		F0A9CCFC843608AC2F92FB7158FBDC73 /* Pods-GTMacros_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-GTMacros_Tests-umbrella.h"; sourceTree = "<group>"; };
+		F628C7594B1BA99022F15AB59E1AD002 /* Pods-GTMacros_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-GTMacros_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		FBC44E1C468331837894FDF373970822 /* GTMacros.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GTMacros.h; path = GTMacros/GTMacros.h; sourceTree = "<group>"; };
+		FC7209DE47C163F7009F50F55CE6C2F4 /* Pods-GTMacros_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-GTMacros_Tests.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		04BE03B81DF70685E69ECE9D909AEE24 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CC58C4DDA6E506657AC1BF9D0838D2E8 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4AEE341C1BCF3C020BBFB35207724313 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2F108517C4E00C4A09E6B2E19DC40576 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BF2D33BE5159BDFE333260C3440FFD75 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9C49AAD9CAAA7CCFF4D329FA3FB51E85 /* Foundation.framework in Frameworks */,
+				36AE8F85D0B318C5414380173C6A7567 /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BFC6CEBFFFD5C47A42FF395AAADBBB23 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5232330C44453186A50A3A48062CD32D /* Foundation.framework in Frameworks */,
+				97E0967A993B2043FA2093F1A2BFB5D0 /* GTCategories.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		09C83425AA8E34A5FE768BE9AB794A62 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				6F406E442789107CFB2B45BBE82A630F /* GTCategories */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		137BF34D0C4326128959399687DDEB82 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A53D8188D4EE7442C4E929DA83A8E247 /* GTMacros */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		13AFB6CF944B12284EC31EA18B4C082F /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				A00A39A2A7EBB08AEB8C58DC40476589 /* Pods-GTMacros_Example */,
+				D54CB307F55A84A91E494DE4C9FD4016 /* Pods-GTMacros_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		27B6341CD6FE18DEC4EBA70C35186D8C /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				4DCB9BF350C3FC1BD88C1E0CBF21C80E /* Foundation.framework */,
+				EF86E51CD484B39C0F026CC2D0287288 /* UIKit.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		3774D30E4387B0F7838362414C51AF3E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				84ED00A8AEBEA4BFFDBF6938C3CE4D1C /* GTCategories.framework */,
+				27B6341CD6FE18DEC4EBA70C35186D8C /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		601C52F8D8CA19619DFD2AA664F1F2DE /* UIKit */ = {
+			isa = PBXGroup;
+			children = (
+				E95C352E6FC9896F6CD2B961ACB17EB1 /* UIColor */,
+			);
+			name = UIKit;
+			sourceTree = "<group>";
+		};
+		6F406E442789107CFB2B45BBE82A630F /* GTCategories */ = {
+			isa = PBXGroup;
+			children = (
+				A9BB1286DE62B8835DFA5B986ACFF81E /* Support Files */,
+				601C52F8D8CA19619DFD2AA664F1F2DE /* UIKit */,
+			);
+			name = GTCategories;
+			path = GTCategories;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				137BF34D0C4326128959399687DDEB82 /* Development Pods */,
+				3774D30E4387B0F7838362414C51AF3E /* Frameworks */,
+				09C83425AA8E34A5FE768BE9AB794A62 /* Pods */,
+				B548C0A8F6F91E11B46AE9F3F9A29FF8 /* Products */,
+				13AFB6CF944B12284EC31EA18B4C082F /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		A00A39A2A7EBB08AEB8C58DC40476589 /* Pods-GTMacros_Example */ = {
+			isa = PBXGroup;
+			children = (
+				98D64F69A796AF737819404F08801D3B /* Info.plist */,
+				DE20A8F70110A0FB81360C2D00D6F02C /* Pods-GTMacros_Example.modulemap */,
+				028A93CA78447BD9EB4E8B7C01A51311 /* Pods-GTMacros_Example-acknowledgements.markdown */,
+				F628C7594B1BA99022F15AB59E1AD002 /* Pods-GTMacros_Example-acknowledgements.plist */,
+				21A8EAF21C29C19F251D669B2C527FD8 /* Pods-GTMacros_Example-dummy.m */,
+				40E0123A962FA7F746643F5B2F539C13 /* Pods-GTMacros_Example-frameworks.sh */,
+				D877B7E7F7086165ABBDEED7EE8B238B /* Pods-GTMacros_Example-resources.sh */,
+				25E53E036557CDB1FC07FB84C8D0B444 /* Pods-GTMacros_Example-umbrella.h */,
+				CA4BE2C7D7236FBA5B1D29B89C97F073 /* Pods-GTMacros_Example.debug.xcconfig */,
+				0FB80E0977F420755F921F3E4333C083 /* Pods-GTMacros_Example.release.xcconfig */,
+			);
+			name = "Pods-GTMacros_Example";
+			path = "Target Support Files/Pods-GTMacros_Example";
+			sourceTree = "<group>";
+		};
+		A53D8188D4EE7442C4E929DA83A8E247 /* GTMacros */ = {
+			isa = PBXGroup;
+			children = (
+				52A401A4971633B80B0CF525A2B32113 /* GTCGCommonMacro.h */,
+				A1DD6147B7EFDA34C5ED437D659F9CDA /* GTCGCommonMacro.m */,
+				48623161D90E7E9A48D865115059DA76 /* GTCommonMacro.h */,
+				56B12C943163FCBCFFB79F0A5FDFF95A /* GTFunctionCommonMacro.h */,
+				26C56F6CDDB57B8B39E4B39879446281 /* GTFunctionCommonMacro.m */,
+				FBC44E1C468331837894FDF373970822 /* GTMacros.h */,
+				C15CEB8FF5CB38C4A7E97A796FA1089F /* GTSystemCommonMacro.h */,
+				8A44457B0C1995207932EAAF06D17C45 /* GTSystemCommonMacro.m */,
+				DB451EA304A7ADD014AFE15D71C6E555 /* Pod */,
+				C98BFBAD8A87C917CBE0D43DB06C7623 /* Support Files */,
+			);
+			name = GTMacros;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		A9BB1286DE62B8835DFA5B986ACFF81E /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				9CAB0A28494CE4412CBA7DFEF329C0AE /* GTCategories.modulemap */,
+				7B316BEC19185B087B0A3D92A590F7F3 /* GTCategories.xcconfig */,
+				6C87623C3E380AE05BF02606F568F070 /* GTCategories-dummy.m */,
+				A5E6C546E756161E0FDB19BDF15989D0 /* GTCategories-prefix.pch */,
+				2637D6BE7A5E06FEC12CE2F2A01E1B5D /* GTCategories-umbrella.h */,
+				E052DCD9BED3977D6BFEF76643F5A4C8 /* Info.plist */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/GTCategories";
+			sourceTree = "<group>";
+		};
+		B548C0A8F6F91E11B46AE9F3F9A29FF8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				48AF182BCE52AA3A7EAAB18FF666F887 /* GTCategories.framework */,
+				03F9CA6F85266EE7555231431E6728A4 /* GTMacros.framework */,
+				0A83FCDBF4CA3D145E0888A23CD9E553 /* Pods_GTMacros_Example.framework */,
+				52028CFAE7AF3BDB672993DE1FFAC05C /* Pods_GTMacros_Tests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C98BFBAD8A87C917CBE0D43DB06C7623 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				E241FCD588B29866792D86744DDF7715 /* GTMacros.modulemap */,
+				754994C083C433C29503AE92E53D1E8F /* GTMacros.xcconfig */,
+				486F513AC72EFBE2DBF99AEC4AC15A90 /* GTMacros-dummy.m */,
+				94AB11D820715222502E56DA547EFF22 /* GTMacros-prefix.pch */,
+				41DAADB500D74FA5E25F5DEE57563845 /* GTMacros-umbrella.h */,
+				59FD39F0A9483AF9723B0D8454001E49 /* Info.plist */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/GTMacros";
+			sourceTree = "<group>";
+		};
+		D54CB307F55A84A91E494DE4C9FD4016 /* Pods-GTMacros_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				9DD74111210220DD0D57945D677D4E42 /* Info.plist */,
+				CA63F69738FD05E655D5D8A0B309DCE4 /* Pods-GTMacros_Tests.modulemap */,
+				D839878283492B136E26DDDA8E8F0DB3 /* Pods-GTMacros_Tests-acknowledgements.markdown */,
+				8996B78769BD21722D2F92199E877A37 /* Pods-GTMacros_Tests-acknowledgements.plist */,
+				48A7E2FC43FFF2CB297E9A3C90F4558B /* Pods-GTMacros_Tests-dummy.m */,
+				C1039AAE87257D87DA39230EFA0C55BF /* Pods-GTMacros_Tests-frameworks.sh */,
+				7CB77FDBD71D612814B941B5AE0F5BBD /* Pods-GTMacros_Tests-resources.sh */,
+				F0A9CCFC843608AC2F92FB7158FBDC73 /* Pods-GTMacros_Tests-umbrella.h */,
+				C1C3D1BABA8A36B002B89D8168DBA3BC /* Pods-GTMacros_Tests.debug.xcconfig */,
+				FC7209DE47C163F7009F50F55CE6C2F4 /* Pods-GTMacros_Tests.release.xcconfig */,
+			);
+			name = "Pods-GTMacros_Tests";
+			path = "Target Support Files/Pods-GTMacros_Tests";
+			sourceTree = "<group>";
+		};
+		DB451EA304A7ADD014AFE15D71C6E555 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				31CA9758AFB26CE41EC4C14C7C6E4208 /* GTMacros.podspec */,
+				656CC916D4F116F60E3F21785D72C070 /* LICENSE */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		E95C352E6FC9896F6CD2B961ACB17EB1 /* UIColor */ = {
+			isa = PBXGroup;
+			children = (
+				2C14A67EF764CF166BA4B85F5C8F8783 /* UIColor+GTGradient.h */,
+				2FD529CCB75F5A5AF83D5C1F7273C4D2 /* UIColor+GTGradient.m */,
+				AD628779B02239FD5C9A97A4F7126876 /* UIColor+GTHEX.h */,
+				8F108F043873A44EE1B85923EB288D10 /* UIColor+GTHEX.m */,
+				2F42A81B850CC9B2EE289449C7654DF5 /* UIColor+GTModify.h */,
+				5AE089C865A73B7B2E52CFFE699A4D11 /* UIColor+GTModify.m */,
+				38B22B8159C0C8AF8BD5C5078E7C36DE /* UIColor+GTRandom.h */,
+				A72FCBB4E61352318DFC0EB4E39EE801 /* UIColor+GTRandom.m */,
+				86E16B8BEF974FCAE98EB726D9045DB2 /* UIColor+GTWeb.h */,
+				692C530C9C002FB666C91842300A20AE /* UIColor+GTWeb.m */,
+			);
+			name = UIColor;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		65482612414DCEC977644BFDA61DAB38 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A97C7F8E2CC4BC610AB839F3971E7732 /* GTCategories-umbrella.h in Headers */,
+				D7BD4C471B3DB4B2D9223CE7566208F4 /* UIColor+GTGradient.h in Headers */,
+				FCF062D30BB3AE7A244B29A7B6449E20 /* UIColor+GTHEX.h in Headers */,
+				59B5B1D1FDDCFBD2883F7F6FA1BCC023 /* UIColor+GTModify.h in Headers */,
+				E8F52C42985271D3189F5A009DA80DB3 /* UIColor+GTRandom.h in Headers */,
+				64F6EF6F6EFE41957CC284E942DC72AA /* UIColor+GTWeb.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		93697E915A4115B9027F9EB61B35DC69 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				52A38D114DFFCAE7F88269C605EE401E /* Pods-GTMacros_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CED43F73165E462E44F1C21FE8BE2185 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E2D968EDA36B2585D56DF55ED5174E94 /* Pods-GTMacros_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E2704CB01535EEE2CE6DEAC5550CF6E3 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2586F17B678A595743BFC9D0DD3B8742 /* GTCGCommonMacro.h in Headers */,
+				57119B7BBC5B0652ADFB0358FC780538 /* GTCommonMacro.h in Headers */,
+				4357CC9DF53970DEAF3100DFA74559D2 /* GTFunctionCommonMacro.h in Headers */,
+				64E906321258B2EF05A66A524F0C2006 /* GTMacros-umbrella.h in Headers */,
+				5C3BD9F39DDC2A328E30CF8258F5DDC9 /* GTMacros.h in Headers */,
+				A7D2060095EF2FD64B0DBFDD08E1BCE5 /* GTSystemCommonMacro.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		252E0F735DF39A793A0018A0BDFDC864 /* Pods-GTMacros_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E3E9A6F82A7742E30B586F0972F51F10 /* Build configuration list for PBXNativeTarget "Pods-GTMacros_Example" */;
+			buildPhases = (
+				21987C30869E3E4530E5123EF20D15FF /* Sources */,
+				4AEE341C1BCF3C020BBFB35207724313 /* Frameworks */,
+				93697E915A4115B9027F9EB61B35DC69 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A94B8F508AFFBFC77FFC9F0CB17A04D7 /* PBXTargetDependency */,
+				89EFAF7D0346248768836C4E68A62CD9 /* PBXTargetDependency */,
+			);
+			name = "Pods-GTMacros_Example";
+			productName = "Pods-GTMacros_Example";
+			productReference = 0A83FCDBF4CA3D145E0888A23CD9E553 /* Pods_GTMacros_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		43EC7DDD6E6E998B9FA9573A81D9B595 /* Pods-GTMacros_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6A2C0FE647A91952DAD01A3989E7D2B3 /* Build configuration list for PBXNativeTarget "Pods-GTMacros_Tests" */;
+			buildPhases = (
+				D61672A1FDE97042584F34C4E8699983 /* Sources */,
+				04BE03B81DF70685E69ECE9D909AEE24 /* Frameworks */,
+				CED43F73165E462E44F1C21FE8BE2185 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				419C44233D77509E15A4F2AD3BB05B6B /* PBXTargetDependency */,
+			);
+			name = "Pods-GTMacros_Tests";
+			productName = "Pods-GTMacros_Tests";
+			productReference = 52028CFAE7AF3BDB672993DE1FFAC05C /* Pods_GTMacros_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		98E42D7C99BDA1823233CCCF2420DB61 /* GTCategories */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 361A17CBF732D171156B850453A4EDE1 /* Build configuration list for PBXNativeTarget "GTCategories" */;
+			buildPhases = (
+				4849EFEA2DA219669D1F797933F13553 /* Sources */,
+				BF2D33BE5159BDFE333260C3440FFD75 /* Frameworks */,
+				65482612414DCEC977644BFDA61DAB38 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GTCategories;
+			productName = GTCategories;
+			productReference = 48AF182BCE52AA3A7EAAB18FF666F887 /* GTCategories.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		F8AEA466471B9AF1BBB300409699D3AD /* GTMacros */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B096014991009BDECDCBA509F259E046 /* Build configuration list for PBXNativeTarget "GTMacros" */;
+			buildPhases = (
+				862FB44E08BE9DAAF01AF1D7C8FC47A4 /* Sources */,
+				BFC6CEBFFFD5C47A42FF395AAADBBB23 /* Frameworks */,
+				E2704CB01535EEE2CE6DEAC5550CF6E3 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				26BA6F153B2BBA9F01E5624072B4A4A3 /* PBXTargetDependency */,
+			);
+			name = GTMacros;
+			productName = GTMacros;
+			productReference = 03F9CA6F85266EE7555231431E6728A4 /* GTMacros.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = B548C0A8F6F91E11B46AE9F3F9A29FF8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				98E42D7C99BDA1823233CCCF2420DB61 /* GTCategories */,
+				F8AEA466471B9AF1BBB300409699D3AD /* GTMacros */,
+				252E0F735DF39A793A0018A0BDFDC864 /* Pods-GTMacros_Example */,
+				43EC7DDD6E6E998B9FA9573A81D9B595 /* Pods-GTMacros_Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		21987C30869E3E4530E5123EF20D15FF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DF93B311C38897AB4D1241A2CBF2F12F /* Pods-GTMacros_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4849EFEA2DA219669D1F797933F13553 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				16F34C39A582D88A364F0EA3CD89F136 /* GTCategories-dummy.m in Sources */,
+				2EEE6AECF3289B55B71C121B8A3086ED /* UIColor+GTGradient.m in Sources */,
+				11E56A9D859C59B071DE2BDCD4386F23 /* UIColor+GTHEX.m in Sources */,
+				3B79829E089FF06DAF25A3D1156821F8 /* UIColor+GTModify.m in Sources */,
+				8E6B4C3CFE4E0A2CE42BD8C3FA3120BF /* UIColor+GTRandom.m in Sources */,
+				982C280783072259A8F05E630D9DCD80 /* UIColor+GTWeb.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		862FB44E08BE9DAAF01AF1D7C8FC47A4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6517AFAF0AA442F2598E60D144852445 /* GTCGCommonMacro.m in Sources */,
+				8F6FFA04960F3105AE68B857BECCF87A /* GTFunctionCommonMacro.m in Sources */,
+				284C54F5A0AFCCECFD7C4201490A4AD7 /* GTMacros-dummy.m in Sources */,
+				CBDAE964A209801EB368F3E692955C96 /* GTSystemCommonMacro.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D61672A1FDE97042584F34C4E8699983 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A1D2419F735849BCC3872498782DB770 /* Pods-GTMacros_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		26BA6F153B2BBA9F01E5624072B4A4A3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = GTCategories;
+			target = 98E42D7C99BDA1823233CCCF2420DB61 /* GTCategories */;
+			targetProxy = 95F9A02FA671BAC2A2920658ACC3ACA2 /* PBXContainerItemProxy */;
+		};
+		419C44233D77509E15A4F2AD3BB05B6B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-GTMacros_Example";
+			target = 252E0F735DF39A793A0018A0BDFDC864 /* Pods-GTMacros_Example */;
+			targetProxy = 283360E4B8DFE12190730E5AEBC3E490 /* PBXContainerItemProxy */;
+		};
+		89EFAF7D0346248768836C4E68A62CD9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = GTMacros;
+			target = F8AEA466471B9AF1BBB300409699D3AD /* GTMacros */;
+			targetProxy = D2D0C67CF3F891111BF39A45000567B0 /* PBXContainerItemProxy */;
+		};
+		A94B8F508AFFBFC77FFC9F0CB17A04D7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = GTCategories;
+			target = 98E42D7C99BDA1823233CCCF2420DB61 /* GTCategories */;
+			targetProxy = 02EC8A4D2AA3DFCCBC8C061A8F117B33 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		0F0C8C9B17769CEECD2C632D6E454D16 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CA4BE2C7D7236FBA5B1D29B89C97F073 /* Pods-GTMacros_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-GTMacros_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-GTMacros_Example/Pods-GTMacros_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		17BB0A0FEE77622BA88502E844193628 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C1C3D1BABA8A36B002B89D8168DBA3BC /* Pods-GTMacros_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-GTMacros_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-GTMacros_Tests/Pods-GTMacros_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		1F438D521DAD8021BDC34BD3731325CA /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 754994C083C433C29503AE92E53D1E8F /* GTMacros.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/GTMacros/GTMacros-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/GTMacros/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/GTMacros/GTMacros.modulemap";
+				PRODUCT_MODULE_NAME = GTMacros;
+				PRODUCT_NAME = GTMacros;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		4D11D31820792552790B582E5A23236F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 754994C083C433C29503AE92E53D1E8F /* GTMacros.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/GTMacros/GTMacros-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/GTMacros/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/GTMacros/GTMacros.modulemap";
+				PRODUCT_MODULE_NAME = GTMacros;
+				PRODUCT_NAME = GTMacros;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		4D6D0693D718A7F2EDF7A47585DEE64C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0FB80E0977F420755F921F3E4333C083 /* Pods-GTMacros_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-GTMacros_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-GTMacros_Example/Pods-GTMacros_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		52035CB22A674E32B096E04A51674D04 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7B316BEC19185B087B0A3D92A590F7F3 /* GTCategories.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/GTCategories/GTCategories-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/GTCategories/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/GTCategories/GTCategories.modulemap";
+				PRODUCT_MODULE_NAME = GTCategories;
+				PRODUCT_NAME = GTCategories;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		8B33C5230DE4A9DFA6D8F46505DD7AF7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		ADD44F0C603A8FB27F62D8AD28CFF99D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7B316BEC19185B087B0A3D92A590F7F3 /* GTCategories.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/GTCategories/GTCategories-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/GTCategories/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/GTCategories/GTCategories.modulemap";
+				PRODUCT_MODULE_NAME = GTCategories;
+				PRODUCT_NAME = GTCategories;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		B42B54097A876E8A982CBF5DAA91B1AB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		EFA17D8FE765F40C48C97BC7A35EFC5F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FC7209DE47C163F7009F50F55CE6C2F4 /* Pods-GTMacros_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-GTMacros_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-GTMacros_Tests/Pods-GTMacros_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8B33C5230DE4A9DFA6D8F46505DD7AF7 /* Debug */,
+				B42B54097A876E8A982CBF5DAA91B1AB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		361A17CBF732D171156B850453A4EDE1 /* Build configuration list for PBXNativeTarget "GTCategories" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				52035CB22A674E32B096E04A51674D04 /* Debug */,
+				ADD44F0C603A8FB27F62D8AD28CFF99D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6A2C0FE647A91952DAD01A3989E7D2B3 /* Build configuration list for PBXNativeTarget "Pods-GTMacros_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				17BB0A0FEE77622BA88502E844193628 /* Debug */,
+				EFA17D8FE765F40C48C97BC7A35EFC5F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B096014991009BDECDCBA509F259E046 /* Build configuration list for PBXNativeTarget "GTMacros" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4D11D31820792552790B582E5A23236F /* Debug */,
+				1F438D521DAD8021BDC34BD3731325CA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E3E9A6F82A7742E30B586F0972F51F10 /* Build configuration list for PBXNativeTarget "Pods-GTMacros_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0F0C8C9B17769CEECD2C632D6E454D16 /* Debug */,
+				4D6D0693D718A7F2EDF7A47585DEE64C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

@@ -1,0 +1,23 @@
+PODS:
+  - GTCategories/UIKit/UIColor (0.0.1)
+  - GTMacros (0.0.1):
+    - GTCategories/UIKit/UIColor
+
+DEPENDENCIES:
+  - GTMacros (from `../`)
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - GTCategories
+
+EXTERNAL SOURCES:
+  GTMacros:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  GTCategories: 6c59524b0bb8cec95effc00ca5c9d34c8f70f402
+  GTMacros: cafe15d1b8cd10e77713998bb75304199abab5c7
+
+PODFILE CHECKSUM: 9b9cf430d94ae34afb9b3e3d94e91fafe7533f24
+
+COCOAPODS: 1.5.3
