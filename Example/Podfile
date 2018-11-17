@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'GTMacros_Example' do
+  pod 'GTMacros', :path => '../'
+
+  target 'GTMacros_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
