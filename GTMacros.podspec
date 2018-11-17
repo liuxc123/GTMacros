@@ -7,7 +7,6 @@ Pod::Spec.new do |s|
   s.author           = { 'liuxc123' => 'lxc_work@126.com' }
   s.source           = { :git => 'https://github.com/liuxc123/GTMacros.git', :tag => s.version.to_s }
   s.ios.deployment_target = '8.0'
-  s.public_header_files = 'GTMacros/GTMacros.h'
   s.source_files = 'GTMacros/**/*'
 
   s.dependency 'GTCategories/UIKit/UIColor'
