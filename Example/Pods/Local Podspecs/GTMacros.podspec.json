@@ -17,11 +17,5 @@
   "platforms": {
     "ios": "8.0"
   },
-  "public_header_files": "GTMacros/GTMacros.h",
-  "source_files": "GTMacros/**/*",
-  "dependencies": {
-    "GTCategories/UIKit/UIColor": [
-
-    ]
-  }
+  "source_files": "GTMacros/**/*"
 }

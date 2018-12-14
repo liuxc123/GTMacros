@@ -7,6 +7,7 @@
 //
 
 #import "GTViewController.h"
+#import <GTMacros/GTMacros.h>
 
 @interface GTViewController ()
 
@@ -17,7 +18,10 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-	// Do any additional setup after loading the view, typically from a nib.
+
+
+    self.view.backgroundColor = kColorHEXString(@"#666666");
+
 }
 
 - (void)didReceiveMemoryWarning

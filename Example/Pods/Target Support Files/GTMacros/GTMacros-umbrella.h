@@ -10,7 +10,11 @@
 #endif
 #endif
 
+#import "GTCGCommonMacro.h"
+#import "GTCommonMacro.h"
+#import "GTFunctionCommonMacro.h"
 #import "GTMacros.h"
+#import "GTSystemCommonMacro.h"
 
 FOUNDATION_EXPORT double GTMacrosVersionNumber;
 FOUNDATION_EXPORT const unsigned char GTMacrosVersionString[];

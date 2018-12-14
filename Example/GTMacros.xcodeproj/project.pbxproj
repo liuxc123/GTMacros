@@ -301,12 +301,10 @@
 			);
 			inputPaths = (
 				"${SRCROOT}/Pods/Target Support Files/Pods-GTMacros_Example/Pods-GTMacros_Example-frameworks.sh",
-				"${BUILT_PRODUCTS_DIR}/GTCategories/GTCategories.framework",
 				"${BUILT_PRODUCTS_DIR}/GTMacros/GTMacros.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTCategories.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMacros.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;

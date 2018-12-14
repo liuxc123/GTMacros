@@ -6,12 +6,10 @@
 //
 
 #import "GTSystemCommonMacro.h"
-#import "UIColor+GTHEX.h"
-#import "UIColor+GTRandom.h"
 
 #pragma mark App版本号
-GT_EXTERN void kAppVersion() {
-    [[[NSBundle mainBundle] infoDictionary] objectForKey:@"CFBundleShortVersionString"];
+GT_EXTERN NSString* kAppVersion() {
+    return [[[NSBundle mainBundle] infoDictionary] objectForKey:@"CFBundleShortVersionString"];
 }
 
 #pragma mark 系统版本
@@ -115,8 +113,8 @@ GT_EXTERN NSString *kPathHome(void) {
     return NSHomeDirectory();
 }
 
-GT_EXTERN void kOpenURL(NSString *url) {
-    [[UIApplication sharedApplication] openURL:[NSURL URLWithString:url]];
+GT_EXTERN BOOL kOpenURL(NSString *url) {
+    return [[UIApplication sharedApplication] openURL:[NSURL URLWithString:url]];
 }
 
 #pragma mark 复制文字内容
@@ -163,6 +161,15 @@ GT_EXTERN NSIndexPath *kIndexPath(NSInteger section, NSInteger row) {
 }
 
 
+CGFloat gtmacro_colorComponentFrom(NSString *string, NSUInteger start, NSUInteger length) {
+    NSString *substring = [string substringWithRange:NSMakeRange(start, length)];
+    NSString *fullHex = length == 2 ? substring : [NSString stringWithFormat: @"%@%@", substring, substring];
+
+    unsigned hexComponent;
+    [[NSScanner scannerWithString: fullHex] scanHexInt: &hexComponent];
+    return hexComponent / 255.0;
+}
+
 #pragma mark - 根据raba获取颜色
 GT_EXTERN UIColor* kColorRGBA(float r,float g,float b, float a) {
     return [UIColor colorWithRed:r/255.0 green:g/255.0 blue:b/255.0 alpha:a];
@@ -170,9 +177,52 @@ GT_EXTERN UIColor* kColorRGBA(float r,float g,float b, float a) {
 
 #pragma mark - 根据hexString获取颜色
 GT_EXTERN UIColor* kColorHEXString(NSString *hexString) {
-    return [UIColor gt_colorWithHexString:hexString];
+    CGFloat alpha, red, blue, green;
+
+    NSString *colorString = [[hexString stringByReplacingOccurrencesOfString:@"#" withString:@""] uppercaseString];
+    switch ([colorString length]) {
+        case 3: // #RGB
+            alpha = 1.0f;
+            red   = gtmacro_colorComponentFrom(colorString, 0, 1);
+            green = gtmacro_colorComponentFrom(colorString, 1, 1);
+            blue  = gtmacro_colorComponentFrom(colorString, 2, 1);
+            break;
+
+        case 4: // #ARGB
+            alpha = gtmacro_colorComponentFrom(colorString, 0, 1);
+            red   = gtmacro_colorComponentFrom(colorString, 1, 1);
+            green = gtmacro_colorComponentFrom(colorString, 2, 1);
+            blue  = gtmacro_colorComponentFrom(colorString, 3, 1);
+            break;
+
+        case 6: // #RRGGBB
+            alpha = 1.0f;
+            red   = gtmacro_colorComponentFrom(colorString, 0, 2);
+            green = gtmacro_colorComponentFrom(colorString, 2, 2);
+            blue  = gtmacro_colorComponentFrom(colorString, 4, 2);
+            break;
+
+        case 8: // #AARRGGBB
+            alpha = gtmacro_colorComponentFrom(colorString, 0, 2);
+            red   = gtmacro_colorComponentFrom(colorString, 2, 2);
+            green = gtmacro_colorComponentFrom(colorString, 4, 2);
+            blue  = gtmacro_colorComponentFrom(colorString, 6, 2);
+            break;
+
+        default:
+            return nil;
+    }
+    return [UIColor colorWithRed:red green:green blue:blue alpha:alpha];
 }
 
 GT_EXTERN UIColor* kRandomColor(void) {
-    return [UIColor gt_randomColor];
+    NSInteger aRedValue = arc4random() % 255;
+    NSInteger aGreenValue = arc4random() % 255;
+    NSInteger aBlueValue = arc4random() % 255;
+    UIColor *randColor = [UIColor colorWithRed:aRedValue / 255.0f green:aGreenValue / 255.0f blue:aBlueValue / 255.0f alpha:1.0f];
+    return randColor;
 }
+
+
+
+

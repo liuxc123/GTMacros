@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name             = 'GTMacros'
-  s.version          = '0.0.1'
+  s.version          = '0.0.2'
   s.summary          = '公共宏，公共方法'
   s.homepage         = 'https://github.com/liuxc123/GTMacros'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
@@ -9,5 +9,4 @@ Pod::Spec.new do |s|
   s.ios.deployment_target = '8.0'
   s.source_files = 'GTMacros/**/*'
 
-  s.dependency 'GTCategories/UIKit/UIColor'
 end

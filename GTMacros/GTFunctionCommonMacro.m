@@ -242,16 +242,6 @@ GT_EXTERN NSDictionary *kGetDictionaryWithJsonString(NSString *jsonString){
 }
 
 
-
-
-
-
-
-
-
-
-
-
 #pragma mark - Decode
 GT_EXTERN NSString* kDecodeObjectFromDic(NSDictionary *dic, NSString *key)
 {

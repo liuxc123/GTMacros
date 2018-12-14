@@ -15,7 +15,7 @@
 GT_EXTERN_C_BEGIN
 
 #pragma mark App版本号
-GT_EXTERN void kAppVersion(void);
+GT_EXTERN NSString* kAppVersion(void);
 
 #pragma mark 系统版本
 GT_EXTERN float kFSystemVersion(void);
@@ -68,7 +68,7 @@ GT_EXTERN NSString *kPathCache(void);
 GT_EXTERN NSString *kPathHome(void);
 
 #pragma mark 用safari打开URL
-GT_EXTERN void kOpenURL(NSString *url);
+GT_EXTERN BOOL kOpenURL(NSString *url);
 
 #pragma mark 复制文字内容
 GT_EXTERN void kCopyContent(NSString *content);
@@ -92,10 +92,9 @@ GT_EXTERN NSIndexPath *kIndexPath(NSInteger section, NSInteger row);
 GT_EXTERN UIColor *kColorRGBA(float r,float g,float b, float a);
 
 #pragma mark - 根据hexString获取颜色
-GT_EXTERN UIColor *kColorHexString(NSString *hexString);
+GT_EXTERN UIColor* kColorHEXString(NSString *hexString);
 
 #pragma mark - 获取随机颜色
 GT_EXTERN UIColor *kRandomColor(void);
-
 
 GT_EXTERN_C_END
