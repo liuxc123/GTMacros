@@ -28,7 +28,7 @@ GT_EXTERN CGFloat kScreenWidth(void);
 #pragma mark 屏幕 height
 GT_EXTERN CGFloat kScreenHeight(void);
 
-#pragma mark 不同屏幕尺寸字体适配（414，736是因为效果图为IPHONE6 Plus 如果不是则根据实际情况修改）
+#pragma mark 不同屏幕尺寸字体适配（375，667是因为效果图为IPHONE6 如果不是则根据实际情况修改）
 GT_EXTERN CGFloat kScreenWidthRatio(void);
 GT_EXTERN CGFloat kScreenHeightRatio(void);
 GT_EXTERN CGFloat kAdaptedWidth(CGFloat width);

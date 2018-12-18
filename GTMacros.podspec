@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name             = 'GTMacros'
-  s.version          = '0.0.2'
+  s.version          = '0.0.3'
   s.summary          = '公共宏，公共方法'
   s.homepage         = 'https://github.com/liuxc123/GTMacros'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }

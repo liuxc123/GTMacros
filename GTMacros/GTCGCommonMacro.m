@@ -45,11 +45,11 @@ GT_EXTERN CGFloat kScreenHeight(void) {
 
 
 GT_EXTERN CGFloat kScreenWidthRatio(void) {
-    return kScreenWidth() / 414.0;
+    return kScreenWidth() / 375.0;
 }
 
 GT_EXTERN CGFloat kScreenHeightRatio(void) {
-    return kScreenHeight() / 736.0;
+    return kScreenHeight() / 667.0;
 }
 
 GT_EXTERN CGFloat kAdaptedWidth(CGFloat width) {
